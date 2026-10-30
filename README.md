@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nearmap is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://www.nearmap.com/
+Nearmap provides high‑resolution aerial imagery and property intelligence platforms, delivering up‑to‑date geospatial data, AI‑driven analytics, and APIs for developers to integrate mapping, analytics, and workflow applications across insurance, architecture, government, and other industries. Their services cover 97% of the U.S. population and 95% of U.S. buildings, with frequent updates and a suite of tools for property decision‑making.
+
+**Areas:** Company · AerialImagery · Geospatial · PropertyIntelligence
+
+## Nearmap on APIs.io
+
+Everything profiled for Nearmap is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nearmap/](https://apis.io/providers/nearmap/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Nearmap Coverage API](https://apis.io/apis/nearmap/nearmap-coverage-api/) — The Coverage API from Nearmap — 6 operation(s) for coverage.
+- [Nearmap Tiles API](https://apis.io/apis/nearmap/nearmap-tiles-api/) — The Tiles API from Nearmap — 2 operation(s) for tiles.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetCoverageV2CoordZXYResponse](https://apis.io/schemas/nearmap/nearmap-get-coverage-v2-coord-zxyresponse/)
+- [GetCoverageV2PointCoordResponse](https://apis.io/schemas/nearmap/nearmap-get-coverage-v2-point-coord-response/)
+- [GetCoverageV2PolyPolygonResponse](https://apis.io/schemas/nearmap/nearmap-get-coverage-v2-poly-polygon-response/)
+- [GetCoverageV2V2IdBoundariesFileformatResponse](https://apis.io/schemas/nearmap/nearmap-get-coverage-v2-v2-id-boundaries-fileformat-response/)
+- [PostCoverageV2AoiRequest](https://apis.io/schemas/nearmap/nearmap-post-coverage-v2-aoi-request/)
+- [PostCoverageV2AoiResponse](https://apis.io/schemas/nearmap/nearmap-post-coverage-v2-aoi-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nearmap Context](https://apis.io/jsonld/nearmap/nearmap-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Nearmap API Rules](https://apis.io/rules/nearmap/nearmap-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nearmap Authentication](https://apis.io/security/nearmap/nearmap-authentication/)
+- [Nearmap Domain Security](https://apis.io/security/nearmap/nearmap-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.nearmap.com/)
+- [Documentation](https://developer.nearmap.com/)
+- [API reference](https://developer.nearmap.com/reference)
+- [Support](https://help.nearmap.com)
+- [Blog](https://www.nearmap.com/blog)
+- [Privacy policy](https://www.nearmap.com/legal/privacy-policy)
+- [GitHub](https://github.com/nearmap)
+- [Status](https://status.nearmap.com/)
+
+## API Evangelist rating
+
+**Kin Score 28.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 23.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 10.5 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nearmap/](https://apis.io/providers/nearmap/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nearmap: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nearmap/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
